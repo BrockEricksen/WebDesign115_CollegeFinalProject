@@ -1,0 +1,116 @@
+body{
+	font-family: "Verdana, Arial, sans-sarif";
+	background-image: url(img/bkg6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#top{
+	width: 100%;
+	height: 70px; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+	box-shadow: 3px 5px 4px black;
+}
+
+h1{
+	color: white;
+	float: left;
+	text-align: center;
+	padding-left: 50px;
+	font-style: bold;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-style: bold;
+	margin-top: 100px;
+}
+
+h3{
+	color: white;
+	text-align: center;
+	font-style: bold;
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px #000000;
+}
+
+footer{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	clear: both;
+	font-size: .90em;
+	font-style: italic;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+nav {
+	float: right;
+	position: relative;
+	margin-top: 5px;
+	font-size: 1.15em;
+	width: 900px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a { 
+	display: inline-block; 
+	color: white; 
+	text-align: center; 
+	padding: 10px; 
+	text-decoration: none;
+}
+
+nav li a:hover { 
+	background-color: #111; 
+	opacity: .4; 
+	border-radius: 15px;
+}
+
+#container {
+	width: 990px;
+	margin: auto;
+}
+
+figcaption {
+	color: black;
+	text-align: center;
+}
+
+main{
+	background-color: rgba(0, 0, 0, .2);
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px #000000;
+	text-align: center;
+}
+
+figure{
+	width: 400px;
+	float: left;
+	border: 5px solid #000000;
+	margin: 20px;
+	padding: 15px;
+	background-color: #f0fff0;
+}
+
+p{
+	color: white;
+	font-size: 1.1em;
+}
+
+nav img{
+	border-radius: 50%;
+	margin: 20px 15px 10px 15px;
+	border: 5px outset #000000;
+}
+

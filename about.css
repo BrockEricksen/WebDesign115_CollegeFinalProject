@@ -1,0 +1,85 @@
+body{
+	background-image: url(img/bkg5.jpg);
+	font-family: "Verdana, Arial, sans-sarif";
+	background-size: cover;
+}
+
+#top{
+	width: 100%;
+	height: 70px; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+	box-shadow: 3px 5px 4px black;
+}
+
+h1{
+	color: white;
+	float: left;
+	text-align: center;
+	padding-left: 50px;
+	font-style: bold;
+}
+
+h2{
+	color: white;
+	float: left;
+	text-align: center;
+	margin-top: 300px;
+	margin-left: 200px;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	clear: both;
+	font-size: .90em;
+	font-style: italic;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+nav {
+	float: right;
+	position: relative;
+	margin-top: 5px;
+	font-size: 1.15em;
+	width: 900px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a { 
+	display: inline-block; 
+	color: white; 
+	text-align: center; 
+	padding: 10px; 
+	text-decoration: none;
+}
+
+nav li a:hover { 
+	background-color: #111; 
+	opacity: .4; 
+	border-radius: 15px;
+}
+
+.description {
+	float: right;
+	width: 800px;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	margin-top: 300px;
+	margin-right: 200px;
+	text-align: center;
+	font-size: 1.5em;
+}

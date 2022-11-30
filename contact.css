@@ -1,0 +1,111 @@
+body{
+	background-image: url(img/bkg6.jpg);
+	font-family: "Verdana, Arial, sans-sarif";
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#top{
+	width: 100%;
+	height: 70px; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+	box-shadow: 3px 5px 4px black;
+}
+
+h1{
+	color: white;
+	float: left;
+	text-align: center;
+	padding-left: 50px;
+	font-style: bold;
+}
+
+h2{
+	color: black;
+	text-align: center;
+	font-style: bold;
+	font-size: 1.8em;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	clear: both;
+	font-size: .90em;
+	font-style: italic;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+nav {
+	float: right;
+	position: relative;
+	margin-top: 5px;
+	font-size: 1.15em;
+	width: 900px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a { 
+	display: inline-block; 
+	color: white; 
+	text-align: center; 
+	padding: 10px; 
+	text-decoration: none;
+}
+
+nav li a:hover { 
+	background-color: #111; 
+	opacity: .4; 
+	border-radius: 15px;
+}
+
+#wrapper {
+	width: 600px; 
+	margin: auto; 
+	margin-top: 125px; 
+	border-radius: 25px 25px 0 0; 
+	color: white;
+}
+
+form { 
+	background-color: rgba(0, 0, 0, .6); 
+	width: 500px; 
+	margin: 25px; 
+	height: 350px;
+}
+
+fieldset { 
+	border: 3px ridge white; 
+	padding: 10px; 
+	margin-bottom: 10px; 
+	max-width: 450px; 
+}
+
+fieldset input, textarea, select { 
+	margin-top: 10px; 
+	display: block; 
+	max-width: 450px; 
+}
+
+#system { 
+	width: 150px; 
+}
+
+#req { 
+	min-width: 300px; 
+	max-width: 450px; 
+}
+
+fieldset { 
+	width: 420px; 
+}
